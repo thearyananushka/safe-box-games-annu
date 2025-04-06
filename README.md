@@ -1,12 +1,46 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎮 Safe Box Challenge
 
-Currently, two official plugins are available:
+A fun and addictive React-based game built with **Vite** + **Styled-Components**. The player clicks on boxes to earn points, avoids the deadly "killer" box, and progresses through levels — all with stylish UI, sound effects, themes, and a leaderboard! 💥
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screenshot](./screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔢 Dynamic grid levels (3x3, 4x4, etc.)
+- 🧨 Killer box ends the game instantly
+- 🎁 Surprise boxes give extra points
+- 💯 Score and level system
+- 🧠 Memory challenge in higher levels
+- 🎊 Confetti celebration on level win
+- 🌙 Light/Dark Theme Toggle
+- 🔊 Mute/Unmute Sound
+- 🏆 Top 5 Leaderboard (stored in `localStorage`)
+- 🧑 Name prompt before game begins
+
+---
+
+## 🎮 How to Play
+
+1. Enter your name to start the game.
+2. Click on safe boxes to earn points.
+3. Avoid the **killer box** 💣.
+4. 🎁 Surprise boxes give you +10 points.
+5. Clear all safe boxes to **win** the level.
+6. Beat 3 levels to win the game!
+7. Check your name on the leaderboard 🏆.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚡ **Vite**
+- ⚛️ **React**
+- 💅 **Styled-components**
+- 🔊 HTML5 Audio API
+- 📦 **localStorage** for leaderboard
+- 🎉 **react-confetti**
+
